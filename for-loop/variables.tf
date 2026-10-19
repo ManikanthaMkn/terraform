@@ -61,16 +61,6 @@ variable "instances" {
 }
 
 variable "zone_id" {
-    default = "Z09450862LQI1D6PF6VN1"
-  
-}
-
-variable "domain_name" {
-    default = "arohvya.online"
-  
-}
-
-variable "zone_id" {
   description = "Route 53 hosted zone ID"
   type        = string
   default     = "Z09450862LQI1D6PF6VN1"
