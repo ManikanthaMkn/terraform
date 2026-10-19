@@ -70,3 +70,14 @@ variable "domain_name" {
   
 }
 
+variable "zone_id" {
+  description = "Route 53 hosted zone ID"
+  type        = string
+  default     = "Z09450862LQI1D6PF6VN1"
+}
+
+variable "domain_name" {
+  description = "Domain name"
+  type        = string
+  default     = "arohvya.online"
+}
