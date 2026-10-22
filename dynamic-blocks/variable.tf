@@ -69,3 +69,7 @@ variable "environment" {
 variable "ingress_ports" {
   default = [22, 80, 443]
 }
+
+variable "egress_ports" {
+  default = [22, 80, 443]
+}
