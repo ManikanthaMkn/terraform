@@ -11,7 +11,7 @@ variable "instance_type"{
 variable "ec2_tags" {
     type = map(string)
     default = {
-        Name = "Hellow World"
+        Name = "Roboshop"
         Purpose = "variables-demo"
     }
 } 
@@ -42,4 +42,8 @@ variable "sg_tags" {
     default = {
         Name = "allow_all"
     }
+}
+
+variable "environment" {
+  default = "dev"
 }
