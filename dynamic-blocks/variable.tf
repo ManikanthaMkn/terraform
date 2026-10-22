@@ -48,33 +48,24 @@ variable "environment" {
   default = "dev"
 }
 
-variable "ingress_ports" {
+/* variable "ingress_ports" {
   default = [
     {
       from_port = 22
       to_port   = 22
-    }
-  ]
-}
-
-variable "ingress_ports" {
-  default = [
+    },
     {
       from_port = 80
       to_port   = 80
-    }
-  ]
-}
-
-variable "ingress_ports" {
-  default = [
+    },
     {
       from_port = 443
       to_port   = 443
     }
   ]
-}
-
-/* variable "ingress_ports" {
-  default = [22, 80, 443]
 } */
+
+
+variable "ingress_ports" {
+  default = [22, 80, 443]
+}
