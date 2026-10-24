@@ -10,6 +10,7 @@ terraform {
     bucket = "mk-devops-remote-state-2026"
     key = "devops-remote-state-demo"
     region = "es-east-1"    
+    dynamodb_table = "mk-terraform-state-lock"
   }
 }
 
